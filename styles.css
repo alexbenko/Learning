@@ -1,0 +1,23 @@
+body{
+    background-color: #fce055;
+    background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+    
+}
+.love{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+h1{
+    text-align: center;
+}
+#id{
+    text-align: center;
+    color: magenta;
+}
+
+.r-button{
+    font-size: 90px;
+}
