@@ -4,9 +4,13 @@ var randomPage = function(){
       }
 
     var pageNames = ['home.html','yosemite.html'];
-    var rando     = pageNames.sample();    
-    return rando;
-}
+    var rando     = pageNames.sample();   
+
+    document.getElementById("random").setAttribute("onclick",location.href=rando);
+};
 
 
 
+var test = function(){
+    alert("You Linked Correctly");
+};
