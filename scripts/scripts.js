@@ -3,10 +3,10 @@ var randomPage = function(){
         return this[Math.floor(Math.random()*this.length)]; //returns a random element fromt the given array based on its length
       }
 
-    var pageNames = ['home.html','yosemite.html'];
+    var pageNames = ['yosemite.html','zion.html','crater.html'];
     var rando     = pageNames.sample();   
 
-    document.getElementById("random").setAttribute("onclick",location.href=rando);
+    document.getElementById("random").setAttribute("onclick",location.href=rando); //sets the href to the result of rando
 };
 
 
