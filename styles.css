@@ -1,8 +1,15 @@
-body{
+#home{
+    background-color: paleturquoise;
+}
+
+#sunset{
     background-color: #fce055;
     background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
     
 }
+
+
+
 .image{
     
     display: block;
@@ -12,6 +19,7 @@ body{
     border-width: 5px;
     border-style: solid;
     border-color: black;
+    border-radius: 10px;
 }
 h1{
     text-align: center;
@@ -22,7 +30,13 @@ h1{
     font-family: 'Righteous', cursive;
 }
 
-.r-button{
-    font-size: 90px;
+
+#dir{
+    text-align: center;
 }
 
+
+#random{
+    color:red;
+    background-color: plum;
+}
