@@ -12,11 +12,13 @@
 
 .image{
     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
     border-width: 5px;
     border-style: solid;
     border-color: black;
-    border-radius: 10px;
 }
 h1{
     text-align: center;
@@ -58,7 +60,7 @@ aside{
 
 .listH{
     text-align: center;
-    list-style-position: inside;
+    list-style-position: ;
 }
 
 
